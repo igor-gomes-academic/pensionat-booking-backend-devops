@@ -25,6 +25,7 @@ jobs:
       DB_HOST: ${{ vars.CI_DB_HOST }}
       DB_PORT: ${{ vars.CI_DB_PORT }}
       DB_NAME: ${{ vars.CI_DB_NAME }}
+      DB_USERNAME: ${{ secrets.CI_DB_USERNAME }}
       DB_PASSWORD: ${{ secrets.CI_DB_PASSWORD }}
       CUSTOMER_SERVICE_URL: http://127.0.0.1:8081
 
