@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class PensionatBookingSystemApplication {
-
+    // Application entry point used by the Spring Boot runtime.
     public static void main(String[] args) {
 
         Dotenv dotenv = Dotenv.configure()
